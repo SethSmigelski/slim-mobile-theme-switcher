@@ -38,19 +38,19 @@ The plugin uses a precise, two-step detection process to ensure the best user ex
 
 ## Frequently Asked Questions
 
-# How do I add a "View Full Site" link?
+### How do I add a "View Full Site" link?
 You can add a link to your mobile theme's footer: `<a href="?theme=active">View Full Site</a>`
 
-# What should I configure in my caching plugin?
+### What should I configure in my caching plugin?
 For best results, exclude the `theme` query parameter from your cache. If your host supports it, enable "Vary by User-Agent" or "Mobile Caching".
 
-# Why isn't my theme switching?
+### Why isn't my theme switching?
 The most common cause is **Page Caching**. If your host (like WP Engine or Kinsta) or a plugin (like WP Rocket) caches the desktop version of a page, it may serve that cached HTML to mobile users regardless of this plugin. Please ensure "Mobile Caching" or "User-Agent Vary" is enabled in your caching setup.
 
-# Does this work with tablets?
+### Does this work with tablets?
 By default, tablets (iPads, etc.) are served the **Desktop Theme**. This is a deliberate design choice to ensure high-resolution tablet screens receive the most robust version of your site.
 
-# How do I link to the mobile version manually?
+### How do I link to the mobile version manually?
 Simply add `?theme=handheld` to any URL on your site. To go back to the default/desktop view, use `?theme=active`.
 
 ## Screenshots
@@ -59,10 +59,10 @@ Simply add `?theme=handheld` to any URL on your site. To go back to the default/
 
 ## Changelog 
 
-# 1.0.0
+### 1.0.0
 * Initial release.
 
 ## Upgrade Notice 
 
-# 1.0.0
+### 1.0.0
 * Initial release.
