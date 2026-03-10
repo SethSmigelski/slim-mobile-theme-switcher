@@ -1,0 +1,6 @@
+{
+  "name": "slim-mobile-theme-switcher",
+  "version": "1.0.0",
+  "description": "Serve a mobile theme to phones while keeping desktops/tablets on the primary theme. Lightweight mobile theme switcher with modern device detection.",
+  "private": true
+}
